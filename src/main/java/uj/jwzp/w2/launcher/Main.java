@@ -29,7 +29,7 @@ public class Main {
         File file = new File("/tmp/generator.properties");
 
         List<String> result = new ArrayList<>();
-        BufferedReader br = null;
+        BufferedReader br;
         try {
             br = new BufferedReader(new FileReader(file));
             String [] line;
